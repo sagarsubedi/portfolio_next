@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { LinkItem } from '../Footer/FooterStyles';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
@@ -16,7 +17,9 @@ const Hero = (props) => (
         I am a software engineer/web developer with a passion for security.
       </SectionText>
 
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      <Button>
+        <a href="resume.docx" download style={{color: "white"}}>Download Resume</a>
+      </Button>
     </LeftSection>
   </Section>
 );
