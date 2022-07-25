@@ -35,3 +35,8 @@ export const TimeLineData = [
   { year: 2020, text: 'Shared my projects with the world', },
   { year: 2021, text: 'Started my own platform', },
 ];
+
+export const AccomplishmentsData = [
+  { number: '3', text: 'Professional Experiences', },
+  { number: '6+', text: 'Open Source Projects' },
+];
