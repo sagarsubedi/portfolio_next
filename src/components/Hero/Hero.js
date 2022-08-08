@@ -17,9 +17,9 @@ const Hero = (props) => (
         I am a software engineer/web developer with a passion for security.
       </SectionText>
 
-      <Button>
+      {/* <Button>
         <a href="resume.docx" download style={{color: "white"}}>Download Resume</a>
-      </Button>
+      </Button> */}
     </LeftSection>
   </Section>
 );
