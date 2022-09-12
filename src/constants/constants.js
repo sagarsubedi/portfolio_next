@@ -25,6 +25,15 @@ export const projects = [
     source: 'https://github.com/sagarsubedi/crypto-app',
     visit: 'https://cryptoapp.sagarsubedi.com',
     id: 2,
+  },
+  {
+    title: 'Landing Page',
+    description: "This is a landing page built for a fictional payment portal company. It is built with react and tailwindcss. It is fully responsive. The design is taken from dribble and I have tried to replicate it as close as possible.",
+    image: '/images/landingpage.png',
+    tags: ['React', 'TailwindCSS', 'Responsive'],
+    source: 'https://github.com/sagarsubedi/landing_page',
+    visit: 'https://landingpage.sagarsubedi.com',
+    id:3,
   }
 ];
 
